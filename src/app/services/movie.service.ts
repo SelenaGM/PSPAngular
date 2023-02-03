@@ -8,7 +8,9 @@ import {Movie} from "../common/movie";
 })
 export class MovieService {
 
-  baseURI = 'http://localhost:3000/api/movies/';
+  //baseURI = 'http://localhost:3000/api/movies/';
+   baseURI = 'https://nodedamcmovies2023-aby8.onrender.com/api/movies'; //esto es para poder meterte en la API desplegada online
+
 
   constructor(private http: HttpClient) { }
 
